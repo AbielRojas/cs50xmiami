@@ -12,10 +12,10 @@ Why pay a fortune teller when you can just program your fortune yourself?
 
 // write your solution here...
 
-var numChildren = 10,
-    partnerName = 'Vicky',
-    geoLocal = 'Paris, France',
-    jobTitle = 'Hair Stylist'
+var numChildren = 100,
+    partnerName = 'Your Spouse',
+    geoLocal = 'Ottowa, Canada',
+    jobTitle = 'Zamboni Repair Man'
 ;
 
 console.log(
