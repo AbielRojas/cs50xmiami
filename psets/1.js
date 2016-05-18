@@ -16,4 +16,4 @@ var curYear = 2016,
     age1 = curYear - birYear,
     age2 = age1 - 1
 ;
-console.log("You are either " + age1 + " or " + age2 + ".");
+console.log("They are either " + age1 + " or " + age2 + ".");
