@@ -10,3 +10,11 @@ http://math2.org/math/geometry/circles.htm
 */
 
 // write your solution here...
+
+var radius = 2,
+    circumference = 2 * radius * 3.141592653589793,
+    area = (radius * radius) * 3.141592653589793
+;
+
+console.log("The circumference is " + circumference + ".");
+console.log("The area is " + area + ".");
