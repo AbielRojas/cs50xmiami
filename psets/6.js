@@ -13,5 +13,15 @@ Look up the JavaScript string reference to find methods which may be useful!
 */
 
 function mixUp(a, b) {
-  // write your solution here...
+  var string1 = a,
+      string2 = b,
+      firstlet1 = string1.slice(0,1),
+      firstlet2 = string2.slice(0,1),
+      rest1 = string1.slice(1,(string1.length)),
+      rest2 = string2.slice(1,(string2.length)),
+      newWord1 = firstlet2 + rest1,
+      newWord2 = firstlet1 + rest2
+  ;
+  console.log(newWord1 + " " + newWord2);
+  return (newWord1 + " " + newWord2);
 }
