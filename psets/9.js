@@ -16,5 +16,9 @@ For example:
 */
 
 function notBad(sentence) {
-  // write your solution here...
+  var string = sentence,
+      not = /not/gi,
+      bad = /bad/gi
+  ;
+  
 }
