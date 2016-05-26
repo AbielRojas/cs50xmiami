@@ -31,4 +31,5 @@ function verbing(word) {
     }
   }
   console.log(string);
+  return(string);
 }
