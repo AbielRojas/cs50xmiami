@@ -17,5 +17,18 @@ For example:
 */
 
 function verbing(word) {
-  // write your solution here...
+  var string = word;
+  var re = /ing/gi;
+  if (string.length >= 3)
+  {
+    if(string.search(re) === -1)
+    {
+      string = string + "ing";
+    }
+    else
+    {
+      string = string + "ly";
+    }
+  }
+  console.log(string);
 }
